@@ -10,7 +10,6 @@ class Stock(BaseModel):
     quantity: int
 
 
-# "Na sztywno" zdefiniowane stany magazynowe
 STOCKS = {
     1: {"productId": 1, "quantity": 15},
     2: {"productId": 2, "quantity": 0},

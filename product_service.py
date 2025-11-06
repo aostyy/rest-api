@@ -10,7 +10,6 @@ class Product(BaseModel):
     price: float
 
 
-# "Na sztywno" zdefiniowane produkty
 PRODUCTS = {
     1: {"id": 1, "name": "Laptop", "price": 4500.00},
     2: {"id": 2, "name": "Smartphone", "price": 2200.50},
